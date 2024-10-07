@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <NavigationMenu>
+        <NavigationMenu className="w-full max-width-100">
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link href="/another" legacyBehavior passHref>
